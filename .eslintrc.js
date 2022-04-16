@@ -28,6 +28,7 @@ module.exports = {
             'flowVersion': '0.53' 
         }
     },
+    'ignorePatterns': ['test/**/*.js'],
     'rules': {
         'indent': [
             'error',
