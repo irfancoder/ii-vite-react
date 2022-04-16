@@ -1,0 +1,19 @@
+.btn {
+    @apply border py-2 px-4 rounded font-medium text-sm leading-none cursor-pointer text-center box-border outline-none transition-all duration-300 h-8 whitespace-nowrap;
+
+    &-primary {
+        @apply text-white border-blue-700 bg-gradient-to-t from-blue-600 to-blue-500;
+    }
+
+    &-secondary {
+        @apply text-blue-700 border-blue-700 bg-white
+    }
+
+    &-default {
+        @apply text-gray-600 border-gray-600 bg-white
+    }
+
+    &-danger {
+        @apply text-white border-red-700 bg-gradient-to-t from-red-600 to-red-500
+    }
+}
