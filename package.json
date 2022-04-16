@@ -7,7 +7,9 @@
     "build": "vite build",
     "preview": "vite preview",
     "release": "standard-version",
-    "test": "jest"
+    "prepare": "husky install",
+    "test": "jest",
+    "lint": "eslint src/**/*.{js,jsx} --fix"
   },
   "dependencies": {
     "axios": "^0.26.1",
@@ -26,6 +28,7 @@
     "autoprefixer": "^10.4.4",
     "eslint": "^8.13.0",
     "eslint-plugin-react": "^7.29.4",
+    "husky": "^7.0.4",
     "jest": "^27.5.1",
     "postcss": "^8.4.12",
     "prop-types": "^15.8.1",

@@ -1,4 +1,4 @@
-# ii-vite 
+# ii-vite-react
 
 ii-vite-react (short for irfanismail's vite react), is an opinionated boilerplate to build a React + Vite SPA application. This boilerplate comes equipped with:
 
@@ -9,6 +9,7 @@ ii-vite-react (short for irfanismail's vite react), is an opinionated boilerplat
 * Vite v2
 * Standard Version
 * Eslint (Standard & eslint/react-presets)
+* Husky
 * Jest &amp; @testing-library/react
 
 That's all. To get started, click 'Use this template' & happy building!
